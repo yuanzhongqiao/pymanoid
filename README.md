@@ -1,74 +1,74 @@
-# pymanoid
-
-[![License](https://img.shields.io/badge/License-GPLv3-green.svg)](https://opensource.org/licenses/GPL-3.0)
-[![Documentation](https://img.shields.io/badge/docs-online-brightgreen?logo=read-the-docs&style=flat)](https://scaron.info/doc/pymanoid/)
-![Status](https://img.shields.io/badge/status-archive-lightgrey.svg)
-
-Humanoid robotics controller prototyping environment based on [OpenRAVE](https://github.com/rdiankov/openrave).
-
-> ⚠️ This project is **archived**. Feel free to look at the code, but don't expect support to install and run it.
-
-Most of the project's functionality has been ported to follow-up libraries that are maintained and easier to install.
-
-## Follow-up software
-
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">核糖体</font></font></h1><a id="user-content-pymanoid" class="anchor-element" aria-label="永久链接：pymanoid" href="#pymanoid"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="https://opensource.org/licenses/GPL-3.0" rel="nofollow"><img src="https://camo.githubusercontent.com/f60eb2d0d3bde969e129890e7f87a93a06d5b7c8a6d5865073c455770616c811/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d47504c76332d677265656e2e737667" alt="执照" data-canonical-src="https://img.shields.io/badge/License-GPLv3-green.svg" style="max-width: 100%;"></a>
+<a href="https://scaron.info/doc/pymanoid/" rel="nofollow"><img src="https://camo.githubusercontent.com/fb3e3dfd440745c31a83c4c244e467cda962b0647b48cd7729967f34c2ecded1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f646f63732d6f6e6c696e652d627269676874677265656e3f6c6f676f3d726561642d7468652d646f6373267374796c653d666c6174" alt="文档" data-canonical-src="https://img.shields.io/badge/docs-online-brightgreen?logo=read-the-docs&amp;style=flat" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/91d10b11a8fdc3c51c62b8a3fbb2bfa461e611068330075406c4703045bab9aa/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7374617475732d617263686976652d6c69676874677265792e737667"><img src="https://camo.githubusercontent.com/91d10b11a8fdc3c51c62b8a3fbb2bfa461e611068330075406c4703045bab9aa/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7374617475732d617263686976652d6c69676874677265792e737667" alt="地位" data-canonical-src="https://img.shields.io/badge/status-archive-lightgrey.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基于</font></font><a href="https://github.com/rdiankov/openrave"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenRAVE</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的人形机器人控制器原型环境。</font></font></p>
+<blockquote>
+<p dir="auto"><g-emoji class="g-emoji" alias="warning"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⚠️</font></font></g-emoji><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该项目已</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">存档</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">请随意查看代码，但不要指望支持安装和运行它。</font></font></p>
+</blockquote>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该项目的大部分功能已移植到后续库中，这些库得到维护并且更易于安装。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">后续软件</font></font></h2><a id="user-content-follow-up-software" class="anchor-element" aria-label="永久链接：后续软件" href="#follow-up-software"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
 <a href="https://github.com/stephane-caron/pink">
-    <img src="https://user-images.githubusercontent.com/1189580/172797197-9aa46561-cfaa-4046-bd60-f681d85b055d.png" align="right" height=100>
+    <img src="https://user-images.githubusercontent.com/1189580/172797197-9aa46561-cfaa-4046-bd60-f681d85b055d.png" align="right" height="100" style="max-width: 100%;">
 </a>
-
-- [pink](https://github.com/stephane-caron/pink): inverse kinematics in Python based on [Pinocchio](https://github.com/stack-of-tasks/pinocchio/)
-- [pypoman](https://github.com/stephane-caron/pypoman): polyhedral projection functions used to compute contact inequality constraints
-- [qpmpc](https://github.com/stephane-caron/qpmpc): linear model predictive control in Python
-- [qpsolvers](https://github.com/qpsolvers/qpsolvers): interfaces to quadratic programming solvers in Python
-- [vhip\_light](https://github.com/stephane-caron/vhip_light): variable-height inverted pendulum balancing in Python
-
-## Features
-
-### Contact stability
-
-- [Wrench friction cones](http://www.roboticsproceedings.org/rss11/p28.pdf) for general multi-contact motions
-- [Multi-contact ZMP support areas](https://hal.archives-ouvertes.fr/hal-02108589/document) for locomotion
-- [CoM acceleration cones](https://hal.archives-ouvertes.fr/hal-01349880/document) for locomotion (conservative)
-- [Robust CoM static-equilibrium polytope](https://hal-lirmm.ccsd.cnrs.fr/lirmm-01477362/document) for posture generation (conservative)
-
-### Model predictive control
-
-- [Linear model predictive control](https://hal.archives-ouvertes.fr/hal-01349880/document) (LMPC) for locomotion
-- [Nonlinear model predictive control](https://hal.archives-ouvertes.fr/hal-01481052/document) (NMPC) for locomotion
-
-### Inverse kinematics
-
-- Whole-body IK based on the [weight-prioritized multi-task formulation](https://scaron.info/robot-locomotion/inverse-kinematics.html)
-- Jacobians and Hessians for center of mass (CoM) and angular momentum tasks
-
-### Geometry and optimization toolbox
-
-- Interfaces to polyhedral geometry: double description, polytope projection
-- Interfaces for numerical optimization solvers: LP, QP and NLP
-
-## Use cases
-
-<img src="doc/src/images/logo.png" width="350" align="right" />
-
-- [Walking pattern generation over uneven terrains](https://github.com/stephane-caron/capture-walkgen) based on capturability of the variable-height inverted pendulum model
-- [Nonlinear model predictive control](https://github.com/stephane-caron/fip-walkgen) using a direct transcription of centroidal dynamics
-- [Linearized model predictive control](https://github.com/stephane-caron/multi-contact-walkgen) using a conservative linearization of CoM acceleration cones
-- [Multi-contact ZMP support areas](https://github.com/stephane-caron/multi-contact-zmp) for locomotion in multi-contact scenarios (including hand contacts)
-- [Humanoid stair climbing](https://github.com/stephane-caron/quasistatic-stair-climbing) demonstrated on the HRP-4 robot
-
-## Getting started
-
-- [Documentation](https://scaron.info/doc/pymanoid/)
-- [FAQ](https://github.com/stephane-caron/pymanoid/wiki/Frequently-Asked-Questions)
-- [Examples](https://github.com/stephane-caron/pymanoid/tree/master/examples)
-- Tutorial: [Prototyping a walking pattern generator](https://scaron.info/robot-locomotion/prototyping-a-walking-pattern-generator.html)
-
-## Citing pymanoid
-
-I developed pymanoid during my PhD studies and share it in the hope it can be useful to others. If it helped you in your research, please cite it *e.g.* as follows:
-
-```bibtex
-@phdthesis{caron2016thesis,
+<ul dir="auto">
+<li><a href="https://github.com/stephane-caron/pink"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">粉红色</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：基于</font></font><a href="https://github.com/stack-of-tasks/pinocchio/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pinocchio的Python逆运动学</font></font></a></li>
+<li><a href="https://github.com/stephane-caron/pypoman"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">pypoman</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：用于计算接触不等式约束的多面体投影函数</font></font></li>
+<li><a href="https://github.com/stephane-caron/qpmpc"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">qpmpc</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：Python 中的线性模型预测控制</font></font></li>
+<li><a href="https://github.com/qpsolvers/qpsolvers"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">qpsolvers</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：Python 中二次规划求解器的接口</font></font></li>
+<li><a href="https://github.com/stephane-caron/vhip_light"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">vhip_light</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：Python 中的可变高度倒立摆平衡</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特征</font></font></h2><a id="user-content-features" class="anchor-element" aria-label="永久链接：特点" href="#features"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">接触稳定性</font></font></h3><a id="user-content-contact-stability" class="anchor-element" aria-label="永久链接：接触稳定性" href="#contact-stability"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="http://www.roboticsproceedings.org/rss11/p28.pdf" rel="nofollow"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于一般多接触运动的</font><a href="http://www.roboticsproceedings.org/rss11/p28.pdf" rel="nofollow"><font style="vertical-align: inherit;">扳手摩擦锥</font></a></font></li>
+<li><a href="https://hal.archives-ouvertes.fr/hal-02108589/document" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多触点 ZMP</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运动支撑区域</font></font></li>
+<li><a href="https://hal.archives-ouvertes.fr/hal-01349880/document" rel="nofollow"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于运动的</font><a href="https://hal.archives-ouvertes.fr/hal-01349880/document" rel="nofollow"><font style="vertical-align: inherit;">CoM 加速锥（保守）</font></a></font></li>
+<li><a href="https://hal-lirmm.ccsd.cnrs.fr/lirmm-01477362/document" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于姿势生成的鲁棒 CoM 静态平衡多胞体</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（保守）</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模型预测控制</font></font></h3><a id="user-content-model-predictive-control" class="anchor-element" aria-label="永久链接：模型预测控制" href="#model-predictive-control"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://hal.archives-ouvertes.fr/hal-01349880/document" rel="nofollow"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于运动的</font><a href="https://hal.archives-ouvertes.fr/hal-01349880/document" rel="nofollow"><font style="vertical-align: inherit;">线性模型预测控制(LMPC)</font></a></font></li>
+<li><a href="https://hal.archives-ouvertes.fr/hal-01481052/document" rel="nofollow"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于运动的</font><a href="https://hal.archives-ouvertes.fr/hal-01481052/document" rel="nofollow"><font style="vertical-align: inherit;">非线性模型预测控制(NMPC)</font></a></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">逆运动学</font></font></h3><a id="user-content-inverse-kinematics" class="anchor-element" aria-label="永久链接：逆运动学" href="#inverse-kinematics"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><a href="https://scaron.info/robot-locomotion/inverse-kinematics.html" rel="nofollow"><font style="vertical-align: inherit;">基于体重优先多任务公式的</font></a><font style="vertical-align: inherit;">全身 IK</font></font><a href="https://scaron.info/robot-locomotion/inverse-kinematics.html" rel="nofollow"><font style="vertical-align: inherit;"></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于质心 (CoM) 和角动量任务的雅可比行列式和海森行列式</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">几何和优化工具箱</font></font></h3><a id="user-content-geometry-and-optimization-toolbox" class="anchor-element" aria-label="永久链接：几何和优化工具箱" href="#geometry-and-optimization-toolbox"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多面体几何的接口：双重描述、多面体投影</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数值优化求解器的接口：LP、QP 和 NLP</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用例</font></font></h2><a id="user-content-use-cases" class="anchor-element" aria-label="永久链接：用例" href="#use-cases"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/stephane-caron/pymanoid/blob/master/doc/src/images/logo.png"><img src="/stephane-caron/pymanoid/raw/master/doc/src/images/logo.png" width="350" align="right" style="max-width: 100%;"></a></p>
+<ul dir="auto">
+<li><a href="https://github.com/stephane-caron/capture-walkgen"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基于变高倒立摆模型可捕获性的</font><a href="https://github.com/stephane-caron/capture-walkgen"><font style="vertical-align: inherit;">不平坦地形行走模式生成</font></a></font></li>
+<li><a href="https://github.com/stephane-caron/fip-walkgen"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用质心动力学直接转录的</font><a href="https://github.com/stephane-caron/fip-walkgen"><font style="vertical-align: inherit;">非线性模型预测控制</font></a></font></li>
+<li><a href="https://github.com/stephane-caron/multi-contact-walkgen"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 CoM 加速锥的保守线性化的</font><a href="https://github.com/stephane-caron/multi-contact-walkgen"><font style="vertical-align: inherit;">线性化模型预测控制</font></a></font></li>
+<li><a href="https://github.com/stephane-caron/multi-contact-zmp"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多接触 ZMP 支持区域</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，用于多接触场景（包括手部接触）中的运动</font></font></li>
+<li><a href="https://github.com/stephane-caron/quasistatic-stair-climbing"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HRP-4 机器人演示</font><a href="https://github.com/stephane-caron/quasistatic-stair-climbing"><font style="vertical-align: inherit;">人形爬楼梯</font></a></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门</font></font></h2><a id="user-content-getting-started" class="anchor-element" aria-label="永久链接：开始使用" href="#getting-started"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://scaron.info/doc/pymanoid/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a></li>
+<li><a href="https://github.com/stephane-caron/pymanoid/wiki/Frequently-Asked-Questions"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">常问问题</font></font></a></li>
+<li><a href="https://github.com/stephane-caron/pymanoid/tree/master/examples"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例子</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">教程：</font></font><a href="https://scaron.info/robot-locomotion/prototyping-a-walking-pattern-generator.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构建行走模式生成器原型</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">引用 pymanoid</font></font></h2><a id="user-content-citing-pymanoid" class="anchor-element" aria-label="永久链接：引用 pymanoid" href="#citing-pymanoid"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我在博士学习期间开发了 pymanoid 并分享它，希望它对其他人有用。</font><font style="vertical-align: inherit;">如果它对您的研究有帮助，请引用它，</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如下：</font></font></p>
+<div class="highlight highlight-text-bibtex notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">@phdthesis</span>{<span class="pl-en">caron2016thesis</span>,
+    <span class="pl-s">title</span> = <span class="pl-s"><span class="pl-pds">{</span>Computational Foundation for Planner-in-the-Loop Multi-Contact Whole-Body Control of Humanoid Robots<span class="pl-pds">}</span></span>,
+    <span class="pl-s">author</span> = <span class="pl-s"><span class="pl-pds">{</span>Caron, St{\'e}phane<span class="pl-pds">}</span></span>,
+    <span class="pl-s">year</span> = <span class="pl-s"><span class="pl-pds">{</span>2016<span class="pl-pds">}</span></span>,
+    <span class="pl-s">month</span> = jan,
+    <span class="pl-s">school</span> = <span class="pl-s"><span class="pl-pds">{</span>The University of Tokyo<span class="pl-pds">}</span></span>,
+    <span class="pl-s">url</span> = <span class="pl-s"><span class="pl-pds">{</span>https://scaron.info/papers/thesis.pdf<span class="pl-pds">}</span></span>,
+    <span class="pl-s">doi</span> = <span class="pl-s"><span class="pl-pds">{</span>10.15083/00074003<span class="pl-pds">}</span></span>,
+}</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="@phdthesis{caron2016thesis,
     title = {Computational Foundation for Planner-in-the-Loop Multi-Contact Whole-Body Control of Humanoid Robots},
     author = {Caron, St{\'e}phane},
     year = {2016},
@@ -76,9 +76,15 @@ I developed pymanoid during my PhD studies and share it in the hope it can be us
     school = {The University of Tokyo},
     url = {https://scaron.info/papers/thesis.pdf},
     doi = {10.15083/00074003},
-}
-```
-
-## Installation
-
-It is not recommended to try to install this library as it is not maintained and relies on deprecated software. Yet, If you are digging into the archives, you can find instructions for Ubuntu 14.04 in [the wiki](https://github.com/stephane-caron/pymanoid/wiki/Installation-instructions).
+}" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font></h2><a id="user-content-installation" class="anchor-element" aria-label="永久链接：安装" href="#installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不建议尝试安装此库，因为它不受维护并且依赖于已弃用的软件。</font><font style="vertical-align: inherit;">然而，如果您深入研究档案，您可以在</font></font><a href="https://github.com/stephane-caron/pymanoid/wiki/Installation-instructions"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">wiki</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中找到 Ubuntu 14.04 的说明。</font></font></p>
+</article></div>
